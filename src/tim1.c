@@ -22,8 +22,8 @@ void TIM1_Init(void)
 
 void TIM1_SetFreq(float freq)
 {
-  unsigned int ARR_Value = 1/(10*freq)*F_SYSCLK/(TIM1_PSCR);
-  ARR_Value--;
+  unsigned int ARR_Value = 1/freq*F_SYSCLK/(TIM1_PSCR+1);
+  //ARR_Value--;
 
   TIM1_ARRH = (ARR_Value & 0xFF00) >> 8;
   TIM1_ARRL = ARR_Value & 0x00FF;

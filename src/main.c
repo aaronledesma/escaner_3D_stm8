@@ -26,20 +26,21 @@ void main( void ){
   
   EBS_Init();
   
-  TIM1_SetFreq(50.0);
-  TIM1_SetDC(50.0, 50.0);
+  float myFreq = 50.0;
+  TIM1_SetFreq(myFreq);
+  TIM1_SetDC(myFreq, 50.0);
   TIM1_Start();
   
   float dutyCycle;
   unsigned char angle; //j=59;
   
-  for(angle=0; angle<=90; angle+=10){
+  for(angle=0; angle<=180; angle+=10){
     //EBS_Move2(EBS_COUNTERCLOCKWISE, 34);
     //send_adc_value(1000*j);
     
     dutyCycle = 100-2.5/90*angle-7.5;
-    TIM1_SetFreq(50.0);
-    TIM1_SetDC(50.0, dutyCycle);
+    TIM1_SetFreq(myFreq);
+    TIM1_SetDC(myFreq, dutyCycle);
     
     TIM4_Delay(500.0, 'm');
     TIM4_Delay(500.0, 'm');

@@ -1,12 +1,12 @@
 main.pbi: \
-  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\distmeter.h \
-  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\ADC.h \
-  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\EngineBySteps.h \
-  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\tim4.h \
-  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\tim1.h \
-  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\gpio.h \
-  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\clock.h \
-  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\UART.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\io_macros.h \
+  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\src\main.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\ioSTM8L152R8.h \
-  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\src\main.c
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc/io_macros.h \
+  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\UART.h \
+  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\clock.h \
+  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\gpio.h \
+  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\tim1.h \
+  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\tim4.h \
+  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\EngineBySteps.h \
+  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\ADC.h \
+  C:\Users\MATEO\Desktop\SCANER\ 3D\ (25-SEP-20)\PROGRAMACION\inc\distmeter.h
